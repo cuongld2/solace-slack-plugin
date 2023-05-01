@@ -81,7 +81,7 @@ def subscribe_solace(ack, respond, command):
 
 
 @app.command("/book-meeting")
-def repeat_text(ack, respond, command):
+def book_meeting(ack, respond, command):
     # Acknowledge command request
     ack()
     # Call book meeting API
